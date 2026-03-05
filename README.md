@@ -55,7 +55,7 @@ The script expects a cleaned Excel file with columns similar to:
 | Column             | Description                                 |
 | ------------------ | ------------------------------------------- |
 | `cislo_obrazu`     | scene number                                |
-| `datum_obdobi_raw` | shooting day information (contains `DEN n`) |
+| `den`              | shooting day information (contains `DEN n`) |
 | `INT/EXT`          | interior/exterior                           |
 | `misto`            | location                                    |
 | `dej`              | scene description                           |
@@ -65,7 +65,7 @@ The script expects a cleaned Excel file with columns similar to:
 
 Example:
 
-| cislo_obrazu | datum_obdobi_raw | misto          | dej           | postavy         |
+| cislo_obrazu | den              | misto          | dej           | postavy         |
 | ------------ | ---------------- | -------------- | ------------- | --------------- |
 | 12           | DEN 3            | Police station | interrogation | ANNA, POLICISTA |
 
@@ -146,3 +146,4 @@ python src/split_characters.py
 ```
 
 The script reads the Excel file defined in the code and writes output files to the `output/characters` directory.
+
