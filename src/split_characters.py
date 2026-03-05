@@ -7,10 +7,10 @@ import pandas as pd
 
 # 1) INPUT: cleaned xlsx
 BASE_DIR = Path(__file__).resolve().parent
-IN_XLSX = str(BASE_DIR / "scenosled_cleaned.xlsx")
+IN_XLSX = str(REPO_ROOT / "data" / "scenosled_input.xlsx")
 
 # 2) OUTPUT: directory for per-character files
-OUT_DIR = str(BASE_DIR / "characters_xlsx")
+OUT_DIR = str(REPO_ROOT / "output" / "characters")
 
 # 3) Expected column names
 SCENE_COL = "cislo_obrazu"
@@ -132,4 +132,5 @@ def main() -> None:
 
 
 if __name__ == "__main__":
+
     main()
