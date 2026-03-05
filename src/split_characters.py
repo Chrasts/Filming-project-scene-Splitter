@@ -91,7 +91,6 @@ def build_character_breakdowns(in_xlsx: str, out_dir: str) -> None:
 
     # 11.3) Add helper columns for sorting and membership tests
     df["__day_num"] = df[DATE_COL].map(parse_day_num)
-    df["den"] = df[DATE_COL]
     df["__scene_key"] = df[SCENE_COL].map(parse_scene_key)
     df["__chars"] = df[CHARS_COL].map(split_characters)
 
@@ -134,3 +133,4 @@ def main() -> None:
 if __name__ == "__main__":
 
     main()
+
