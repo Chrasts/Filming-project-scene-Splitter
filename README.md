@@ -37,10 +37,6 @@ The original scene list contained typical real-world inconsistencies, such as:
 * formatting variations
 * non-uniform text entries
 
-A preprocessing step was therefore performed to produce a **cleaned Excel file (`scenosled_cleaned.xlsx`)** with consistent column names and formatting.
-
-The script in this repository assumes that this preprocessing step has already been completed.
-
 Because different productions may structure their scene lists differently, **the script is tailored to this specific dataset structure**.
 For other projects, column names or parsing logic may need to be adjusted.
 
