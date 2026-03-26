@@ -21,9 +21,7 @@ Each row represents a scene and includes information such as:
 * costume notes
 * extras
 
-For production departments (especially **costume and make-up**), it is often necessary to quickly obtain:
-
-> all scenes in which a specific character appears, ordered by shooting day.
+For production departments (especially **costume and make-up**), it is often necessary to quickly obtain all scenes in which a specific character appears, ordered by shooting day.
 
 Manually filtering the master spreadsheet for each character is time-consuming, especially on larger productions.
 
